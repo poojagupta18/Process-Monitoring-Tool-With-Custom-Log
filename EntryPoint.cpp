@@ -17,8 +17,8 @@ public:
 //Name:				Constructor
 //Input:			PID
 //Output:			-
-//Description:		Takes the snapshot of running Thread of
-//					specified process
+//Description:			Takes the snapshot of running Thread of
+//				specified process
 //Date:				24 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -42,7 +42,7 @@ ThreadInfo::ThreadInfo(DWORD no)
 //Name:				ThreadsDisplay
 //Input:			-
 //Output:			-
-//Description:		Displays the running Thread information
+//Description:			Displays the running Thread information
 //Date:				24 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -87,8 +87,8 @@ public:
 //Name:				Constructor
 //Input:			PID
 //Output:			-
-//Description:		Takes the snapshot of running modules 
-//					of specified process
+//Description:			Takes the snapshot of running modules 
+//				of specified process
 //Date:				24 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -112,7 +112,7 @@ DLLInfo::DLLInfo(DWORD no)
 //Name:				DependentDLLDisplay
 //Input:			-
 //Output:			Boolean
-//Description:		Displays the Dependent DLL Information 
+//Description:			Displays the Dependent DLL Information 
 //Date:				24 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -161,7 +161,7 @@ public:
 //Name:				Constructor
 //Input:			-
 //Output:			-
-//Description:		Takes the snapshot of running processes
+//Description:			Takes the snapshot of running processes
 //Date:				24 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -187,8 +187,8 @@ ProcessInfo::ProcessInfo()
 //Name:				ProcessDisplay
 //Input:			option with ps command(-p / -t/ -d)
 //Output:			Boolean
-//Description:		Displays the Process Information based 
-//					on provided  option
+//Description:			Displays the Process Information based 
+//				on provided  option
 //Date:				24 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -240,8 +240,8 @@ BOOL ProcessInfo::ProcessDisplay(char const * option)
 //Name:				ProcessLog
 //Input:			-
 //Output:			Boolean
-//Description:		Create the log File and write process 
-//					information in it
+//Description:			Create the log File and write process 
+//				information in it
 //Date:				25 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -296,7 +296,7 @@ BOOL ProcessInfo::ProcessLog()
 //Name:				ReadLog
 //Input:			Hour, Minute, Date, Month
 //Output:			Boolean
-//Description:		Read the contents of log file
+//Description:			Read the contents of log file
 //Date:				25 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -337,8 +337,8 @@ BOOL ProcessInfo::ReadLog(DWORD hr, DWORD min, DWORD date, DWORD month)
 //Name:				ProcessSearch
 //Input:			Process_Name
 //Output:			Boolean
-//Description:		Search the specified process and Display 
-//					it's information
+//Description:			Search the specified process and Display 
+//				it's information
 //Date:				25 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -374,7 +374,7 @@ BOOL ProcessInfo::ProcessSearch(char* name)
 //Name:				KillProcess
 //Input:			Process_Name
 //Output:			Boolean
-//Description:		Terminate the specified process
+//Description:			Terminate the specified process
 //Date:				25 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -429,7 +429,7 @@ BOOL ProcessInfo::KillProcess(char * name)
 //Name:				HardWareInfo
 //Input:			-
 //Output:			Boolean
-//Description:		It Displays the Hardware information
+//Description:			It Displays the Hardware information
 //Date:				25 July 2019
 //
 ////////////////////////////////////////////////////////
@@ -458,7 +458,7 @@ BOOL HardWareInfo()
 //Name:				DisplayHelp
 //Input:			-
 //Output:			-
-//Description:		It displays the command and it's usage
+//Description:			It displays the command and it's usage
 //Date:				25 July 2019
 //
 ///////////////////////////////////////////////////////////
@@ -483,8 +483,8 @@ void DisplayHelp()
 //Name:				main
 //Input:			-
 //Output:			Integer
-//Description:		Entry point function, which calls other 
-//					Functionalities from it
+//Description:			Entry point function, which calls other 
+//				Functionalities from it
 //Date:				24 July 2019
 //
 ///////////////////////////////////////////////////////////
