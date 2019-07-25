@@ -1,7 +1,7 @@
 //
 //  @Author: Pooja Gupta
 //  @Date: 25/7/19
-//	@Purpose: Provide Process Explorer Functionality
+//  @Purpose: Provide Process Explorer Functionality
 //
 
 #define _CRT_SECURE_NO_WARNINGS
